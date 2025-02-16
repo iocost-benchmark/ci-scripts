@@ -2,7 +2,9 @@ name: Build import-results
 
 on:
   push:
+    branches: [ main ]
   pull_request:
+    branches: [ main ]
   # Every Monday 01:00 UTC
   schedule:
     - cron: "0 1 * * 1"
