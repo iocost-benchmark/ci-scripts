@@ -2,6 +2,7 @@ name: Watch for resctl-demo release
 
 on:
   push:
+    branches: [ main ]
   # Every day at 01:00
   schedule:
     - cron: "0 1 * * *"
